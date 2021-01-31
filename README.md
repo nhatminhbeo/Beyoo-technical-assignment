@@ -43,13 +43,13 @@ This is to be done in
 
 ### 3.4: Run the node server
 ```
-npm run
+npm run start
 ```
 Then, you can check whether the server is running at: [http://\<your-server-ip\>:3000/user](http://\<your-server-ip\>:3000/user). Make sure [http://\<your-server-ip\>:3000/user](http://\<your-server-ip\>:3000/user) returns an empty JSON object successfully.
 
 ## Task \#4: Add code to create new user
 ### 4.1 Install Postman
-[Postman](https://www.postman.com/) is a powerful tool to debug HTTP Rest APIs (In particular, we'll be using Postman to send GET/POST HTTP request against our endpoint). 
+[Postman](https://www.postman.com/) is a powerful tool to debug HTTP Rest APIs (In particular, we'll be using Postman to send GET/POST HTTP request against our endpoint).
 
 ### 4.2 Add a route to create new user
 Add a route to accept **POST** request to /user endpoint.
@@ -59,7 +59,7 @@ Hint: file need to be edited:
 ```
 
 ### 4.3 Add logic to create new user
-Add code to handle API request in 
+Add code to handle API request in
 ```bash
 /api/user.js
 ```
@@ -78,9 +78,10 @@ Note: You can test the [http://\<your-server-ip\>:3000/user](http://\<your-serve
 ### 5.1 Code:
 Please make a Pull Request of your code to this repository to submit assignment.
 ### 5.2 Video:
-Please capture a short video showing 
+Please capture a short video showing
 1. User List before creating a new one using Postman GET [http://\<your-server-ip\>:3000/user](http://\<your-server-ip\>:3000/user)
 2. Create a new user using Postman POST [http://\<your-server-ip\>:3000/user](http://\<your-server-ip\>:3000/user)
 3. User list after creating a new one using Postman GET [http://\<your-server-ip\>:3000/user](http://\<your-server-ip\>:3000/user)
+And submit it to our slack channel
 
-# THANK YOU!
+# THAT'S IT!!! THANK YOU :)

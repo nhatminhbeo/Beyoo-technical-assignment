@@ -1,0 +1,19 @@
+{
+  "name": "beyoo-technical-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Minh Tran Quoc",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "*",
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "*"
+  }
+}
