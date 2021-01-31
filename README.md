@@ -40,6 +40,7 @@ This is to be done in
 ```bash
 /db/database.js
 ```
+(Please edit the `uri` variable to your local MongoDB URI)
 
 ### 3.4: Run the node server
 ```
