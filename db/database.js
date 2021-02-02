@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Promise = require('bluebird');
 
-const uri = 'mongodb+srv://BeyooRW:Booye123@cluster0.v4zac.mongodb.net/Beyoo';
+const uri = 'mongodb://35.187.251.22:27017/apimongo';
 
 
 mongoose.set('debug', true);
