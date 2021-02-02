@@ -19,8 +19,9 @@ module.exports.createUser = (req, res, next) => {
 
     //username chua dang ky
     const userNew = new User({ fullname, username, password, birthday });
-    userNew.save().then(function (user) {
-      if (user) return res.status(201).json({ user })
-    }).catch(next)
-  }).catch(next)
+    return userNew.save();
+  }).then(userNew =>{
+    if(userNew) return res.status(201).json(userNew);
+  })
+  .catch(next)
 }
